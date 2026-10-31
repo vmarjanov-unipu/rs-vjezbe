@@ -1,0 +1,7 @@
+# Python virtualna okruzenja
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator hakerskih imena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Generator hakerskih imena</h1>
+      <p class="status">
+        <span class="status-dot" id="status-dot"></span>
+        <span id="status-text">Provjeravam poslužitelj…</span>
+      </p>
+    </header>
+
+    <section class="card">
+      <form id="name-form" novalidate>
+        <div class="fields">
+          <label>
+            Ime
+            <input type="text" id="first-name" maxlength="50" autocomplete="given-name" required>
+          </label>
+          <label>
+            Prezime
+            <input type="text" id="last-name" maxlength="50" autocomplete="family-name" required>
+          </label>
+        </div>
+        <button type="submit" id="submit-button">Generiraj</button>
+      </form>
+      <p class="error" id="error" hidden></p>
+      <div class="result" id="result" hidden>
+        <p class="result-person" id="result-person"></p>
+        <p class="hacker-name" id="hacker-name"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
