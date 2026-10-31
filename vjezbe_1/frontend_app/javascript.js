@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "https://generator-hakerskih-imena-be.onrender.com/";
 const STATUS_CHECK_INTERVAL_MS = 50000;
 
 // API zahtjev
