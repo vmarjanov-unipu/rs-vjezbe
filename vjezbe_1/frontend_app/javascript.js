@@ -1,4 +1,4 @@
-const API_URL = "https://generator-hakerskih-imena-be.onrender.com/";
+const API_URL = "https://ghi-be.onrender.com/";
 const STATUS_CHECK_INTERVAL_MS = 50000;
 
 // API zahtjev
